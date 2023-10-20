@@ -40,21 +40,21 @@ Adafruit_AHTX0 aht; // I2C
 
 // Insert your network credentials and make sure the define at the beginning of the document is correct
 #if defined(WIFI_WORKSHOP)
-  #define WIFI_SSID "Workshop"
-  #define WIFI_PASSWORD "@@vigyan@@"
+  #define WIFI_SSID "*****"
+  #define WIFI_PASSWORD "*********"
 
   //#define WIFI_NAME "WS"
 #endif
 
 // Insert Firebase project API Key
-#define API_KEY "AIzaSyB6g30vxXbnz8L7ZSJ5Fu18mJdOs0yikt0" //"va-black-soldier-flies" firebase project
+#define API_KEY "*********" //"va-black-soldier-flies" firebase project
 
 // Insert Authorized Email and Corresponding Password
-#define USER_EMAIL "bsf_test@gmail.com" //you can also choose: va_esp32_test@gmail.com
-#define USER_PASSWORD "123456789"
+#define USER_EMAIL "*******" //you can also choose: va_esp32_test@gmail.com
+#define USER_PASSWORD "*******9"
 
 // Insert RTDB URLefine the RTDB URL
-#define DATABASE_URL "https://va-bsf-temp-humid-v2-default-rtdb.asia-southeast1.firebasedatabase.app/"
+#define DATABASE_URL "*************"
 
 // Define Firebase objects
 FirebaseData fbdo;
